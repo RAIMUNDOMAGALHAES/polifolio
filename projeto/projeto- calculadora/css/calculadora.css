@@ -1,0 +1,83 @@
+/* RESET GERAL */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(https://s2-g1.glbimg.com/hW6PWETmdLBIllrVuecpKvufiHM=/0x0:600x393/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/W/H/DhBMAwTmutuvPLaqdZJw/nazare.png);
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    display: grid;
+    place-items: center;
+
+}
+
+.fundo h1 {
+    position: absolute;
+    top: 5%;
+    font-size: 2.5rem;
+    text-shadow: 3px 3px #000;
+    color: #fbff00;
+}
+
+.calculadora {
+    background: rgba(0, 0, 0, 0.458);
+    padding: 2rem;
+    border-radius: 10px;
+
+}
+
+.calculadora h2 {
+    color: #bc0d0dd2;
+    text-align: center;
+}
+
+#resultado {
+    background-color: #fff;
+    color: #000000;
+    text-align: right;
+    padding: 0 5px;
+    margin: 1rem auto;
+    height: 40px;
+    width: 14rem;
+    overflow-x: hidden;
+}
+
+button {
+    place-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    box-shadow: 3px 3px;
+    font-size: 20px;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 3px;
+    transition: box-shondow 1s;
+    box-shadow: 3px 3px #706e6e;
+    transition: transform .5s;
+}
+
+
+button:hover {
+    transform: scale(110%);
+}
+
+button:active {
+    transform: scale(95%);
+    box-shadow: 3px 3px #6a00c1;
+}
+
+td[rowspan="2"] button {
+    height: 108px;
+}
+
+td[colspan="2"] button {
+    width: 108px;
+}
